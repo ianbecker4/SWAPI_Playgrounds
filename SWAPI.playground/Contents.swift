@@ -38,6 +38,8 @@ struct Film: Decodable {
 //    let url: String
 }
 
+// MARK: - Model Controllers
+
 class SwapiService {
     static private let baseURL = URL(string: "https://swapi.dev/api/")
     
